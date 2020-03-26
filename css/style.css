@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #E5E5E5;
+}
+
+.wrapper {
+    width: 100%;
+    height: 900px;
+    background: url('../images/image 1.png') no-repeat;
+}
+
+.fl-left {
+    float: left;
+}
+
+.section-50 {
+    width: 50%;
+}
+
+.section-33 {
+    width: 33.3333%;
+}
+
+.triangle-big {
+    border-top: 591px solid #fff;
+    border-left: 591px solid transparent;
+    position: absolute;
+    right: 0;
+}
+
+.triangle-medium {
+    width: 0;
+    height: 0;
+    border-bottom: 129px solid #fff;
+    border-right: 129px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: 39px;
+}
+
+.triangle-small {
+    width: 0;
+    height: 0;
+    border-bottom: 42px solid #fff;
+    border-left: 42px solid transparent;
+    margin-left: 212px;
+    position: absolute;
+    top: 169px;
+}
+
+.diagonal-line {
+    height: 0px;
+    opacity: 0.5;
+    border: 1px solid #FFFFFF;
+    transform: rotate(45deg);
+}
+
+.dl-bottom {
+    width: 132px;
+    margin-left: 116px;
+    margin-top: 187px;
+}
+
+.dl-top {
+    width: 142px;
+    margin-left: 230px;
+    margin-top: 48px;
+}
+
+.sidebar {
+    position: relative;
+    margin-left: 76px;
+}
+
+
+.logo img {
+    padding-top: 68px;
+}
+
+.nav {
+    margin-top: 118px;
+    margin-left: -40px
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 15px 0;
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.car-description {
+    font-family: 'Podkova';
+    color: #fff;
+    margin-top: 338px;
+    margin-left: 333px;
+    background: url('../images/image 2.png');
+    width: 254px;
+    height: 169px;
+    position: relative;
+}
+
+.name-sedan {
+    position: absolute;
+    right: 172px;
+    bottom: -33px;
+    font-family: 'Playfair Display';
+}
+
+.name-sedan h2 {
+    font-style: italic;
+    font-size: 57.7073px;
+    line-height: 77px;
+}
+
+.name-sedan h2::after {
+    content: " ";
+    height: 30px;
+    width: 20px;
+    background: url('../images/Vector\ 11.png') no-repeat;
+    position: absolute;
+    top: 30px;
+    right: -42px;
+
+}
+
+
+
+.car-description h4 {
+    position: absolute;
+    width: 198px;
+    height: 81px;
+    font-size: 18px;
+    line-height: 20px;
+    top: 198px;
+}
+
+.car-description h6 {
+    position: absolute;
+    width: 242px;
+    top: 298px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.car-description p {
+    position: absolute;
+    top: 384px;
+
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    right: 15px;
+}
+
+.car-description p::after {
+    content: " ";
+    height: 20px;
+    width: 10px;
+    background: url('../images/Vector 2 (1).png') no-repeat;
+    position: absolute;
+    top: 2px;
+    right: -15px
+}
+
+.photo-car {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+
+.vertical-line {
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+    margin-left: 24px;
+    width: 73px;
+    height: 0;
+}
+
+.article {
+
+    font-weight: normal;
+    text-align: right;
+}
+
+.article h2 {
+    position: absolute;
+    width: 386px;
+    height: 124px;
+    right: 63px;
+    top: -550px;
+    font-family: "Playfair Display";
+    font-size: 56px;
+    color: #0D0D0D;
+}
+
+.article h2 span:last-child {
+    font-size: 38px;
+}
+
+.article p {
+    position: absolute;
+    width: 219px;
+    height: 94px;
+    right: 58px;
+    top: -356px;
+    font-family: "Podkova";
+    font-size: 14px;
+    line-height: 16px;
+     color: #262626;
+}
+
+.article p:last-child {
+    right: 79px;
+    top: -216px;
+}
+
+.article p:last-child::after {
+    content: " ";
+    height: 15px;
+    width: 10px;
+    background: url('../images/Vector 2 (4).png') no-repeat;
+    position: absolute;
+    top: 1px;
+    right: -18px;
+}
